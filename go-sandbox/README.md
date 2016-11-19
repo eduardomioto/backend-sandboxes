@@ -20,3 +20,6 @@ go install github.com/user/hello
 ###### Reference
 
 - https://code.tutsplus.com/tutorials/what-is-go--cms-21635
+- https://devcenter.heroku.com/articles/go-dependencies-via-godep
+- https://devcenter.heroku.com/articles/go-websockets
+- https://devcenter.heroku.com/articles/que-go

@@ -13,12 +13,15 @@ sudo apt-get install node
 ```shell
 node basic.js
 ```
-	
+
+##### Testing
+
+```shell
+curl http://localhost:8080
+```
+
 ##### References	
-- http://nodebr.com/nodejs-e-mongodb-introducao-ao-mongoose/
-- https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
-- https://code.tutsplus.com/categories/nodejs
-- http://campus.codeschool.com/courses/real-time-web-with-node-js/level/1/video/1
+- [1] https://nodejs.org/api/synopsis.html
 	
 ##### Setting a proxy and repository [just if necessary]
 
@@ -28,7 +31,6 @@ npm config set proxy http://proxy_host:port
 npm config set https-proxy http://proxy_host:port
 npm config set strict-ssl false
 ```
-
 ##### Unsetting a proxy and repository 
 
 ```shell
@@ -36,3 +38,9 @@ npm config set registry http://registry.npmjs.org/
 npm config rm proxy http://proxy_host:port
 npm config rm https-proxy http://proxy_host:port
 ```
+##### Credits	
+- [1] http://campus.codeschool.com/courses/real-time-web-with-node-js/level/1/video/1
+- [2] http://nodebr.com/nodejs-e-mongodb-introducao-ao-mongoose/
+- [3] https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
+- [4] https://code.tutsplus.com/categories/nodejs
+- [5] https://nodeschool.io/
