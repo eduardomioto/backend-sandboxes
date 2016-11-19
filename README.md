@@ -1,7 +1,9 @@
 # sandboxes
 
-- NodeJS
-https://code.tutsplus.com/categories/nodejs
+- Go
+https://code.tutsplus.com/categories/go
+https://golang.org/ref/spec
+https://golang.org/doc/go1.7
 
 - Python
 https://code.tutsplus.com/categories/python
@@ -14,12 +16,6 @@ https://code.tutsplus.com/categories/emberjs
 
 - React
 https://code.tutsplus.com/categories/react
-
-- Go
-https://code.tutsplus.com/categories/go
-https://golang.org/ref/spec
-https://golang.org/doc/go1.7
-
 
 - Meteor
 https://code.tutsplus.com/categories/meteor

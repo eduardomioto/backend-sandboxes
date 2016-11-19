@@ -1,7 +1,7 @@
 // Include http module, 
-var http = require("http"), 
+var http = require("http");
 // And url module, which is very helpful in parsing request parameters. 
-	url = require("url"); 
+var	url = require("url"); 
 
 // Create the server. 
 http.createServer(function (request, response) { 
@@ -17,5 +17,5 @@ http.createServer(function (request, response) {
 		// Send data and end response. 
 		response.end('Here is your data: ' + _get['data']); 
 	}); 
-// Listen on the 8080 port. 
-}).listen(8080);
+// Listen on the 9090 port. 
+}).listen(9090);
