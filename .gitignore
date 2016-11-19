@@ -9,6 +9,7 @@ settings.*
 /target/
 /.settings/
 /.classpath
+/.idea/
 
 # JAVA
 *.class
