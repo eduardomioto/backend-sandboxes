@@ -3,7 +3,7 @@ var fs   = require("fs");
 
 http.createServer(function (request, response) { 
 	
-    var newFile = fs.createWriteStream('readme-copy.md'); 
+    var newFile = fs.createWriteStream('README-copy.md'); 
     file.pipe(newFile);
     
     request.on('end', function(){
