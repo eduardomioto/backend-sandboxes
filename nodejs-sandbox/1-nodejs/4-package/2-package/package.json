@@ -1,0 +1,7 @@
+{
+    "name":     "My App 4-package",
+    "version":  "1",
+    "dependencies": {
+        "connect": "~1"
+    }
+}
