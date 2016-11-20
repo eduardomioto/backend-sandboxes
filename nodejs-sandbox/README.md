@@ -1,3 +1,7 @@
+##### Introduction
+- This folder will be continuously updated. 
+- Priority Order: [1]
+
 ##### Instalation
 
 - Windows: https://nodejs.org/dist/v6.9.1/node-v6.9.1-x64.msi

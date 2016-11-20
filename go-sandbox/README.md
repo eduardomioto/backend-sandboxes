@@ -1,5 +1,8 @@
-##### Installation
+##### Introduction
+- This folder will be updated soon. 
+- Priority Order: [> 4]
 
+##### Installation
 - https://golang.org/doc/install
 - https://storage.googleapis.com/golang/go1.7.3.windows-amd64.msi
 - https://storage.googleapis.com/golang/go1.7.3.linux-amd64.tar.gz
@@ -18,7 +21,6 @@ go install github.com/user/hello
 - basic/install.go
 
 ###### Reference
-
 - https://code.tutsplus.com/tutorials/what-is-go--cms-21635
 - https://devcenter.heroku.com/articles/go-dependencies-via-godep
 - https://devcenter.heroku.com/articles/go-websockets
