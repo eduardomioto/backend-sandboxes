@@ -1,32 +1,17 @@
 # sandboxes
 
-- Go
-https://code.tutsplus.com/categories/go
-https://golang.org/ref/spec
-https://golang.org/doc/go1.7
-
-- Python
-https://code.tutsplus.com/categories/python
-
-- Django
-https://code.tutsplus.com/categories/django
-
-- EmberJS
-https://code.tutsplus.com/categories/emberjs
-
-- React
-https://code.tutsplus.com/categories/react
-
-- Meteor
-https://code.tutsplus.com/categories/meteor
-
-- Ruby
-https://code.tutsplus.com/categories/ruby
-
-- Ruby on Rails
-https://code.tutsplus.com/categories/ruby-on-rails
-
-- Socket.io
-https://code.tutsplus.com/categories/socketio
-
-	
+- Priority Order:
+- [1] NodeJS
+- [2] Java
+- [3] Python
+- [4] AngularJS
+- [5] TBD
+- [6] TBD
+- [7] TBD
+- [8] TBD
+- [9] TBD
+- [10] TBD
+- [11] TBD
+- [12] TBD
+- [13] TBD
+- [14] TBD

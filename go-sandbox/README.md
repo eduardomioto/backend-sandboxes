@@ -25,3 +25,6 @@ go install github.com/user/hello
 - https://devcenter.heroku.com/articles/go-dependencies-via-godep
 - https://devcenter.heroku.com/articles/go-websockets
 - https://devcenter.heroku.com/articles/que-go
+- https://code.tutsplus.com/categories/go 
+- https://golang.org/ref/spec
+- https://golang.org/doc/go1.7

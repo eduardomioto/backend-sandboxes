@@ -4,3 +4,4 @@
 
 ##### Reference
 - https://devcenter.heroku.com/articles/deploying-python
+- https://code.tutsplus.com/categories/django
