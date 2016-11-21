@@ -4,11 +4,29 @@
   <artifactId>spring-mvc-sandbox</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
+ 
+	<properties>
 		<jdk.version>1.8</jdk.version>
 	</properties>
 
-	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.2.RELEASE</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
 
 	<build>
 		<plugins>
@@ -25,6 +43,7 @@
 
 		</plugins>
 	</build>
+
   
   
 </project>
