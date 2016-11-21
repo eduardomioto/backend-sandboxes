@@ -1,4 +1,4 @@
-package br.com.mioto.sandboxes;
+package br.com.mioto.sandboxes.example1;
 
 public class RunnableDemo implements Runnable {
 	private Thread t;
