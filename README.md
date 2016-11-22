@@ -4,9 +4,9 @@
 - [1] NodeJS
 - [2] Java
 - [3] Python
-- [4] TBD
-- [5] TBD
-- [6] TBD
-- [7] TBD
-- [8] TBD
-- [9] TBD
+- [4] Go
+- [5] Rails
+- [6] R
+- [7] Django
+- [8] Ruby
+- [9] Clojure

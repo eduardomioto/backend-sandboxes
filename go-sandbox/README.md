@@ -1,6 +1,6 @@
 ##### Introduction
 - This folder will be updated soon. 
-- Priority Order: [> 4]
+- Priority Order: 4
 
 ##### Installation
 - https://golang.org/doc/install

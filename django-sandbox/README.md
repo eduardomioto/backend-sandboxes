@@ -1,6 +1,6 @@
 ##### Introduction
 - This folder will be updated soon. 
-- Priority Order: [> 4]
+- Priority Order: 7
 
 ##### Reference
 - https://devcenter.heroku.com/articles/deploying-python
