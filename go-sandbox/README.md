@@ -20,11 +20,42 @@ go install github.com/user/hello
 ```
 - basic/install.go
 
+###### Running
+
+- 0-hello-world.go
+```shell
+go run hello-world.go
+go build hello-world.go
+./hello-world
+```
+
+- 1-values.go
+```shell
+go run values.go
+```
+
+- 2-variables.go
+```shell
+go run variables.go
+```
+
+- 3-constants.go
+```
+go run constant.go 
+```
+
+- 4-for.go
+```
+go run for.go 
+```
+
+
 ###### Reference
-- https://code.tutsplus.com/tutorials/what-is-go--cms-21635
-- https://devcenter.heroku.com/articles/go-dependencies-via-godep
-- https://devcenter.heroku.com/articles/go-websockets
-- https://devcenter.heroku.com/articles/que-go
-- https://code.tutsplus.com/categories/go 
-- https://golang.org/ref/spec
-- https://golang.org/doc/go1.7
+- [1] https://gobyexample.com/
+- [2] https://github.com/golang/example
+- [3] https://devcenter.heroku.com/articles/go-dependencies-via-godep
+- [4] https://devcenter.heroku.com/articles/go-websockets
+- [5] https://devcenter.heroku.com/articles/que-go
+- [7] https://code.tutsplus.com/categories/go 
+- [8] https://golang.org/ref/spec
+- [9] https://golang.org/doc/go1.7
