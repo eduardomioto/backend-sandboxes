@@ -3,5 +3,6 @@
 - Priority Order: 7
 
 ##### Reference
-- https://devcenter.heroku.com/articles/deploying-python
-- https://code.tutsplus.com/categories/django
+- [1] https://devcenter.heroku.com/articles/deploying-python
+- [2] https://code.tutsplus.com/categories/django
+- [3] https://docs.djangoproject.com/en/1.10/intro/tutorial01/
