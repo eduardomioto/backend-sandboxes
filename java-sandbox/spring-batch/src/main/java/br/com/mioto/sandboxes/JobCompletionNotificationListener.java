@@ -15,18 +15,39 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
+/**
+ * The listener interface for receiving jobCompletionNotification events.
+ * The class that is interested in processing a jobCompletionNotification
+ * event implements this interface, and the object created
+ * with that class is registered with a component using the
+ * component's <code>addJobCompletionNotificationListener<code> method. When
+ * the jobCompletionNotification event occurs, that object's appropriate
+ * method is invoked.
+ *
+ * @see JobCompletionNotificationEvent
+ */
 @Component
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {
 
+	/** The Constant log. */
 	private static final Logger log = LoggerFactory.getLogger(JobCompletionNotificationListener.class);
 
+	/** The jdbc template. */
 	private final JdbcTemplate jdbcTemplate;
 
+	/**
+	 * Instantiates a new job completion notification listener.
+	 *
+	 * @param jdbcTemplate the jdbc template
+	 */
 	@Autowired
 	public JobCompletionNotificationListener(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	/* (non-Javadoc)
+	 * @see org.springframework.batch.core.listener.JobExecutionListenerSupport#afterJob(org.springframework.batch.core.JobExecution)
+	 */
 	@Override
 	public void afterJob(JobExecution jobExecution) {
 		if(jobExecution.getStatus() == BatchStatus.COMPLETED) {

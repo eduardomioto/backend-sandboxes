@@ -3,7 +3,6 @@ package br.com.mioto.sandboxes;
 import javax.sql.DataSource;
 
 import org.springframework.batch.core.Job;
-import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
@@ -19,21 +18,31 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.jdbc.core.JdbcTemplate;
 
+/**
+ * The Class BatchConfiguration.
+ */
 @Configuration
 @EnableBatchProcessing
 public class BatchConfiguration {
 
+    /** The job builder factory. */
     @Autowired
     public JobBuilderFactory jobBuilderFactory;
 
+    /** The step builder factory. */
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
 
+    /** The data source. */
     @Autowired
     public DataSource dataSource;
 
+    /**
+     * Reader.
+     *
+     * @return the flat file item reader
+     */
     // tag::readerwriterprocessor[]
     @Bean
     public FlatFileItemReader<Person> reader() {
@@ -50,11 +59,21 @@ public class BatchConfiguration {
         return reader;
     }
 
+    /**
+     * Processor.
+     *
+     * @return the person item processor
+     */
     @Bean
     public PersonItemProcessor processor() {
         return new PersonItemProcessor();
     }
 
+    /**
+     * Writer.
+     *
+     * @return the jdbc batch item writer
+     */
     @Bean
     public JdbcBatchItemWriter<Person> writer() {
         JdbcBatchItemWriter<Person> writer = new JdbcBatchItemWriter<Person>();
@@ -65,6 +84,12 @@ public class BatchConfiguration {
     }
     // end::readerwriterprocessor[]
 
+    /**
+     * Import user job.
+     *
+     * @param listener the listener
+     * @return the job
+     */
     // tag::jobstep[]
     @Bean
     public Job importUserJob(JobCompletionNotificationListener listener) {
@@ -76,6 +101,11 @@ public class BatchConfiguration {
                 .build();
     }
 
+    /**
+     * Step 1.
+     *
+     * @return the step
+     */
     @Bean
     public Step step1() {
         return stepBuilderFactory.get("step1")
