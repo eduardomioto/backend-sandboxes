@@ -11,7 +11,8 @@ Programming Languages Covered: Java, NodeJS, Ruby, Python, R, Go, Clojure
 Frameworks Covered
 ---------------
 * Java:
-    * Jersey, JPA, Hibernate, Spring Boot, Spring Core, Spring Social, Spring MVC Spring, Spring Data, Spring Security, Spring JMS, Spring Cloud, Spring Batch, Axis 1.4, Axis 2, CXF
+    * Jersey, JPA, Hibernate, Spring Boot, Spring Core, Spring Social, Spring MVC, Spring Data, Spring Security, Spring JMS, Spring Cloud, Spring Batch, Axis 1.4, Axis 2, CXF, Play2
+    * And some useful libs: Guava, Jackson, OWASP, IReport, Apache Poi, Log4J, SLF4J, Commons-IO, JSoup, Dom4J, Quartz, Logback, JodaTime
 * NodeJS:
     * Express, Socket.io, Mongoose
 * Ruby:
@@ -24,7 +25,7 @@ Frameworks Covered
     * None
 * Clojure:
     * None 
-
+       
 Priority Order:
 ---------------
 - [1] NodeJS
