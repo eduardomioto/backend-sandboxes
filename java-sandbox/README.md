@@ -1,3 +1,7 @@
+Java Sandboxes
+--------
+[![Build Status](https://travis-ci.org/eduardomioto/backend-sandboxes.svg?branch=master)](https://travis-ci.org/eduardomioto/backend-sandboxes)
+
 ##### Introduction
 - This folder will be continuously updated. 
 
