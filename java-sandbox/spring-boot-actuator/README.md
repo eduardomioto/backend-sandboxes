@@ -2,7 +2,10 @@
 - This folder will be updated soon. 
 
 ##### Running
-- localhost:9001/health
+- Application Endpoints:
+-     http://localhost:9000/
+- Actuator Endpoints:
+-     http://localhost:9001/health
 
 
 ##### Reference
