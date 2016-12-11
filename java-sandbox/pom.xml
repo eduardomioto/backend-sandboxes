@@ -8,11 +8,27 @@
     <artifactId>java-sandbox</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>Multi Chapter Simple Parent Project</name>
+    <name>Parent Project</name>
 
     <modules>
-        <module>simple-weather</module>
-        <module>simple-webapp</module>
+        <!--<module>axis</module>-->
+		<!--<module>cxf</module>-->
+		<module>hibernate</module>
+		<module>jackson</module>
+		<!--<module>java</module>-->
+		<module>jersey</module>
+		<!--<module>jpa</module>-->
+		<module>spring-batch</module>
+		<module>spring-boot</module>
+		<module>spring-boot-actuator</module>
+		<!--<module>spring-boot-websocket</module> ERROR -->
+		<module>spring-cloud</module>
+		<!--<module>spring-data</module>-->
+		<module>spring-jdbc</module>
+		<module>spring-jms</module>
+		<module>spring-mvc</module>
+		<module>spring-security</module>
+		<module>spring-social</module>
     </modules>
 
     <build>
@@ -29,13 +45,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 </project>
