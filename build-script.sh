@@ -3,8 +3,8 @@ components="spring-batch spring-boot spring-boot-actuator spring-cloud spring-da
 cd "java-sandbox"
 for component in $components
 do
-    echo "Testing component: $component"
-    cd $component
-    mvn clean install
+	echo "Testing component: $component"
+	cd $component
+	mvn clean install
 	cd ..
 done
