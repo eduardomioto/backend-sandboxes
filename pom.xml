@@ -29,6 +29,7 @@
 		<module>java-sandbox/spring-mvc</module>
 		<module>java-sandbox/spring-security</module>
 		<module>java-sandbox/spring-social</module>
+		<module>java-sandbox/jsf-mojarra</module>
     </modules>
 
     <build>
