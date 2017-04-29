@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.mioto.sandbox</groupId>
-    <artifactId>java-sandbox</artifactId>
+    <artifactId>spring-cloud-sandbox-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <name>Parent Project</name>

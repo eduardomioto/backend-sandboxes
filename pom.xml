@@ -22,7 +22,7 @@
 		<module>java-sandbox/spring-boot</module>
 		<module>java-sandbox/spring-boot-actuator</module>
 		<!--<module>spring-boot-websocket</module> ERROR -->
-		<module>java-sandbox/spring-cloud</module>
+		<module>java-sandbox/spring-cloud-sandbox</module>
 		<!--<module>spring-data</module>-->
 		<module>java-sandbox/spring-jdbc</module>
 		<module>java-sandbox/spring-jms</module>
