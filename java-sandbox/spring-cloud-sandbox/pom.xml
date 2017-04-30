@@ -16,6 +16,7 @@
 		<module>spring-cloud-consul</module>
 		<module>spring-cloud-security</module>
 		<module>spring-cloud-zookeeper</module>
+		<module>spring-cloud-aws</module>
     </modules>
 
     <build>
