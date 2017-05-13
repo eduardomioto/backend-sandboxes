@@ -2,43 +2,48 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.mioto.sandboxes</groupId>
-	<artifactId>spring-data-neo4j-sandbox</artifactId>
+	<artifactId>spring-kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
 		<jdk.version>1.7</jdk.version>
+		<spring-kafka.version>1.2.1.RELEASE</spring-kafka.version>
 	</properties>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.2.RELEASE</version>
+		<version>1.5.3.RELEASE</version>
 	</parent>
 
 	<dependencies>
+		<!-- spring-boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-neo4j</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--Spring-Kafka -->
 		<dependency>
-			<groupId>org.neo4j.driver</groupId>
-			<artifactId>neo4j-java-driver</artifactId>
-			<version>1.2.1</version>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+			<version>${spring-kafka.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
+			<version>${spring-kafka.version}</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
+
 
 
 	<build>
@@ -56,7 +61,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-
 		</plugins>
 	</build>
 
