@@ -7,7 +7,7 @@
 
 	<properties>
 		<jdk.version>1.7</jdk.version>
-		<spring-kafka.version>3.1.10</spring-kafka.version>
+		<spring-kafka.version>3.2.6</spring-kafka.version>
 	</properties>
 
 	<parent>
