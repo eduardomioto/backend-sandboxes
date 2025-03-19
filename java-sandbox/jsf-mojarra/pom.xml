@@ -9,7 +9,7 @@
 		<jdk.version>1.7</jdk.version>
 	    <junit.version>4.12</junit.version>
         <servlet.version>3.1.0</servlet.version>
-        <mojarra.version>2.2.12</mojarra.version>
+        <mojarra.version>2.2.20</mojarra.version>
         <primefaces.version>5.3</primefaces.version>
         <maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    
